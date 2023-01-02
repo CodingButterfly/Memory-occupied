@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+  int i;
+  float f;
+  char ch;
+
+  printf("Size of int variable: %d \n",sizeof(i));
+  printf("Size of float variable: %d \n",sizeof(f));
+  printf("Size of char variable: %d \n",sizeof(ch));
+  return 0;
+}
